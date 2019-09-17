@@ -1,14 +1,20 @@
-# Module 2 Muscle Builder
+# Module 3 Muscle Builder
 
 I am a student in a Masters program for Data Analytics and Visualization.
 
-For my 2nd week's assignment, I needed to create this README file [meta, I know] and [this](https://github.com/yuleidner/Katz_Data_Analytics/blob/master/M2/M2%20Data%20Analyitcs.ipynb) python file.
+For my 3rd week's assignment, I needed to create this README file (meta, I know) and [this](https://github.com/yuleidner/Katz_Data_Analytics/blob/master/M3/M3%20Data%20Analyitcs.ipynb) python file.
 
 In the Jupyter Notebook, I'm going to do the following:
 
-* Create a list of all lower case letters and a separate list of the numbers 1-26.
-* Use a for loop to print out which numbers in my list are divisible by 4
-* Print both lists and show their types.
-* Using zip, create a list of tuples, where each tuple consists of the lower case letter and its numerical equivalent, 1-26.
-* Print the list of tuples, the type of the list, and the type of the first element in that list.
-* Using list comprehension, create a list of letters for which have ordinal values (1-26) that are multiples of 4.
+Reproduce all the things that I did in the [last module](https://github.com/yuleidner/Katz_Data_Analytics/blob/master/M2/M2%20Data%20Analyitcs.ipynb)
+
+Do some exciting new stuff:
+
+* Using a loop, show the unicode value for each letter, using ord().
+* For each lowercase letter of the alphabet, come up with a unique integer that is some calculated combination of the unicode value and/or the ordinal position (1-26) of the letter in the alphabet.
+* Make sure the code for each letter is unique, so that no code number repeats for more than one letter!
+* Create a dictionary that gives, for each letter of the alphabet, the code value you created.
+* Create an encoding function that takes a string of lower case letters and returns a list of integers representing a the code number given to each letter.
+* Make sure the function will exit with a helpful message if there is an element in the string that isn’t encodable (isn’t a lowercase letter).
+* Try out the function using the word "hello".
+* Try out the function using the string "hello there".
