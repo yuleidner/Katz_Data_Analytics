@@ -15,6 +15,7 @@ Do some exciting new stuff:
 * Make sure the code for each letter is unique, so that no code number repeats for more than one letter!
 * Create a dictionary that gives, for each letter of the alphabet, the code value you created.
 * Create an encoding function that takes a string of lower case letters and returns a list of integers representing a the code number given to each letter.
-* Make sure the function will exit with a helpful message if there is an element in the string that isn’t encodable (isn’t a lowercase letter).
+* Make sure the function will exit with a helpful message if there is an element in the string that isn’t encodable (isn’t a lowercase letter) or if it is not a string.
 * Try out the function using the word "hello".
 * Try out the function using the string "hello there".
+* Try out the function using an integer.
