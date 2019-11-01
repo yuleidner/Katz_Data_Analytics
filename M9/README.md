@@ -1,4 +1,4 @@
-In [this](https://github.com/yuleidner/Katz_Data_Analytics/blob/master/M9/M9%20PROJECT.ipynb) Notebook, I will analyze The New York City Community Health Survey data.
+In [this](https://github.com/yuleidner/Katz_Data_Analytics/blob/master/M9/M9%20Project.ipynb) Notebook, I will analyze The New York City Community Health Survey data.
 
 The CHS "is a telephone survey conducted annually by the DOHMH, Division of Epidemiology, Bureau of Epidemiology Services. CHS provides robust data on the health of New Yorkers, including neighborhood, borough, and citywide estimates on a broad range of chronic diseases and behavioral risk factors. The data are analyzed and disseminated to influence health program decisions, and increase the understanding of the relationship between health behavior and health status."
 
