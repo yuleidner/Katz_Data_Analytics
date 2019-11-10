@@ -1,14 +1,15 @@
-In [this](https://github.com/yuleidner/Katz_Data_Analytics/blob/master/M9/M9%20PROJECT.ipynb) Notebook, I will_____ NYC's open dataset on Car Crashes. 
+In [this](https://github.com/yuleidner/Katz_Data_Analytics/blob/master/M10/M10%20PROJECT.ipynb) Notebook, I will ingest NYC's open dataset on Car Crashes, and perform some data aggregation.
 
 
 * Data: https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions-Crashes/h9gi-nx95
 
 I made use of the following functions:
 
-info()
-describe()
-dtype()
-replace()
-value_counts()
-unique()
 pd.to_datetime()
+groupby()
+agg(['count', 'mean', 'std'])
+sum()
+index()
+pd.Grouper(freq="Y")
+pd.DataFrame
+plt.plot
